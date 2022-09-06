@@ -18,4 +18,5 @@ else:
     print("wrong option")
     
 data = request.urlopen(f"https://raw.githubusercontent.com/suedes011/ml/main/{file}.py")
+print("------------------------------------------\n")
 print(data.read().decode('utf-8'))
