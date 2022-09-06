@@ -5,6 +5,7 @@ print("------------------------------------------")
 print("1. SpamHam Sigmoid")
 print("2. Naive Bayes")
 print("3. Perceptron")
+print("4. All in one")
 
 ch = int(input("Enter your choice : "))
 file = ""
@@ -14,6 +15,8 @@ elif ch == 2:
     file = "nb"
 elif ch == 3:
     file = "pt"
+elif ch == 4:
+    file = "aio"
 else:
     print("wrong option")
     
